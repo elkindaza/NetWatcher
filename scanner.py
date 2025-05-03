@@ -14,7 +14,7 @@ import socket
 import ipaddress
 
 def get_local_ip():
-    """Obtiene la IP local del equipo."""
+    print("Obtiene la IP local del equipo")
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("8.8.8.8", 80))
